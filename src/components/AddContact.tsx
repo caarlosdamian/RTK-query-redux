@@ -26,10 +26,10 @@ export const AddContact = () => {
       await updateContact(contactU)
     }
   return (
-    <> 
-    <button onClick={handleAdd}>Add Contact</button>
-    {/* <button onClick={handleDelete}>Delete Contact</button>
-    <button onClick={handleUpdate}>Update Contact</button> */}
-    </>
+    // <> 
+    // <button onClick={handleAdd}>Add Contact</button>
+    // {/* <button onClick={handleDelete}>Delete Contact</button>
+    // <button onClick={handleUpdate}>Update Contact</button> */}
+    // </>
   )
 }
