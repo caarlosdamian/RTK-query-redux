@@ -2,19 +2,11 @@ import React from 'react'
 import { useAddContactMutation, useDeleteContactMutation, useUpdateContactMutation } from '../services/api'
 
 export const AddContact = () => {
-  const [addContact] = useAddContactMutation()
-  const [updateContact] = useUpdateContactMutation()
-  const [deleteContact] = useDeleteContactMutation()
-    const contact = {
-        id:8,
-        name:"Erik",
-        email:"erik@prueba.com"
-    }
+ 
 
 
 
 
-    
     const contactU = {
         id:8,
         name:"prueba",
