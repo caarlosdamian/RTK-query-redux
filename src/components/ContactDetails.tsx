@@ -10,7 +10,8 @@ export const ContactDetails = ({ id }: Props) => {
     return (
         <div>
             {isLoading ? <span>Loading...</span> : <pre>{JSON.stringify(data)}</pre>}
-
+    <button >Delete Contact</button>
+    <button >Update Contact</button>
         </div>
     )
 }
